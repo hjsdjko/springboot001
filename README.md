@@ -1,43 +1,52 @@
-推荐使用：谷歌浏览器 【QQ联系 979748385 QQ群 601569450】
+***************************************************************
+关于源码项目的相关问题可以联系我们交流： 【QQ 979748385】
+                                         
+     
+***************************************************************
 
-后台地址
-http://localhost:8080/springbootxs5o6/admin/dist/index.html
+系统架构
 
-管理员  abo 密码 abo
+前端：html | js | css | jquery | vue
 
+后端：springboot | mybatis
 
-前台地址：http://localhost:8080/springbootxs5o6/front/index.html
+环境：jdk1.8+ | mysql | maven
 
+使用说明
+1、下载源码，导入IDEA
 
+2、创建数据库，执行数据库脚本
 
-在src\main\resources\application.yml中编辑
-											
-	 url: jdbc:mysql://127.0.0.1:3306/springbootxs5o6?useUnicode=true&characterEncoding=utf-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
-	    username: root
-	    password: 123456 （数据库密码）
+3、修改数据库jdbc连接参数
 
-图书个性化推荐系统，在前台首页可以查看首页、图书信息、好书推荐、留言反馈、个人中心、后台管理等内容
+4、在IDEA中运行
 
-![image-20240406194800991](C:\Users\22612\AppData\Roaming\Typora\typora-user-images\image-20240406194800991.png)
+5、打开浏览器，参考<说明文档.txt>中的地址
 
-学生注册、登录，在学生注册页面可以填写学号、密码、学生姓名、性别、出生日期、联系电话、班级等信息进行注册、登录
+***************************************************************
 
-![image-20240406194809103](C:\Users\22612\AppData\Roaming\Typora\typora-user-images\image-20240406194809103.png)
+简介
 
-![image-20240406194839630](C:\Users\22612\AppData\Roaming\Typora\typora-user-images\image-20240406194839630.png)
+随着社会的发展，社会的各行各业都在利用信息化时代的优势。计算机的优势和普及使得各种信息系统的开发成为必需。
 
-图书信息，在图书信息页面通过查看图书编号、图书名称、图书类别、图片、作者、出版社、版次、数量、点击次数等信息进行预约、立即提交或点我收藏操作，如图5-3所示。在个人中心页面通过填写学号、密码、学生姓名、性别、出生日期、联系电话、班级等信息进行更新信息、退出登录操作.
+在线拍卖系统，主要的模块包括管理员；首页、个人中心、用户管理、商品类型管理、拍卖商品管理、历史竞拍管理、竞拍订单管理、留言板管理、系统管理，用户；首页、个人中心、历史竞拍管理、竞拍订单管理、留言板管理，前台首页；首页、拍卖商品、竞拍公告、留言反馈、个人中心、后台管理等功能。系统中管理员主要是为了安全有效地存储和管理各类信息，还可以对系统进行管理与更新维护等操作，并且对后台有相应的操作权限。
 
-![image-20240406194855287](C:\Users\22612\AppData\Roaming\Typora\typora-user-images\image-20240406194855287.png)
+要想实现在线拍卖系统的各项功能，需要后台数据库的大力支持。管理员验证注册信息，收集的用户信息，并由此分析得出的关联信息等大量的数据都由数据库管理。本文中数据库服务器端采用了Mysql作为后台数据库，使Web与数据库紧密联系起来。在设计过程中，充分保证了系统代码的良好可读性、实用性、易扩展性、通用性、便于后期维护、操作方便以及页面简洁等特点。
 
-![image-20240406194900521](C:\Users\22612\AppData\Roaming\Typora\typora-user-images\image-20240406194900521.png)
+本系统的开发使获取在线拍卖系统信息能够更加方便快捷，同时也使在线拍卖系统信息变的更加系统化、有序化。系统界面较友好，易于操作。
 
-
-
-学生管理，在学生管理页面中可以通过查看学号、密码、学生姓名、性别、出生日期、联系电话、班级等内容进行修改、删除等操作，还可以根据需要对图书分类管理进行修改或删除等详细操作
-
-![image-20240406194921717](C:\Users\22612\AppData\Roaming\Typora\typora-user-images\image-20240406194921717.png)
-
+关键词：在线拍卖系统  ；Spring Boot框架；Mysql数据库
 
 
-![image-20240406194936703](C:\Users\22612\AppData\Roaming\Typora\typora-user-images\image-20240406194936703.png)
+
+登入
+
+![输入图片说明](8aeea3de80df9537253ea3583f05067.jpg)
+
+![输入图片说明](c29417f9ef689d37aee4e89be476e0d.jpg)
+
+![输入图片说明](c1d163837b12c92715738e1f6b21dce.jpg)
+
+![输入图片说明](e745337b57d833381e0b02b57014e6b.jpg)
+
+![输入图片说明](67939130705e0ef4ea211df807732dd.jpg)
